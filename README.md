@@ -7,6 +7,10 @@ Download all the photos in google photos account for a given year
 The script loops through all the media files in the user's library and downloads
 each file. A folder is created for every day that contains media files.
 
+If the file already exists in the local folder it's skipped. If more than 5 files are skipped the process stops.
+
+Warning: Sometimes the API may reach its daily limit, wait until next day or ask google an increased quota.
+
 ## Usage
 
 ### Parameters
