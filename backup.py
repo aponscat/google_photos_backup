@@ -159,5 +159,4 @@ if __name__ == '__main__':
 
         main(year)
     else:
-        print("Please, enter a year as first argument.")
         main()
