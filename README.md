@@ -5,7 +5,11 @@
 Download all the photos in google photos account for a given year
 
 The script loops through all the media files in the user's library and downloads
-each file. A folder is created for every day that contains media files.
+each file. It downloads the metadata .json file too.
+
+A folder is created for every day that contains media files.
+
+Additionally all .HEIC files are transformed to .jpeg files.
 
 If the file already exists in the local folder it's skipped. If more than 5 files are skipped the process stops.
 
