@@ -61,7 +61,7 @@ backup
 - Select "User Data"
 - ![User data image](images/user-data.png "User data image")
 - Add, at least photoslibrary.readonly scope to the credentials
-- ![Credentials scope image](images/scope.png "Credentials scope image")
+- ![Credentials scope image](images/scopes.png "Credentials scope image")
 - You'll see the scope added to the "Sensitive scopes" list in the credentials configuration page
 - ![Sensitive scopes image](images/sensitive-scopes.png "Sensitive scopes image")
 - Select "Desktop app" in the type of application
