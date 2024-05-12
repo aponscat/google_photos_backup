@@ -44,6 +44,12 @@ python3 backup.py
 ./backup.sh
 ```
 
+- Using windows, bat to launch the current year backup
+
+```sh
+backup
+```
+
 ## Authentication step by step guide
 
 - Make sure you can connect with your google account to developers.google.com
